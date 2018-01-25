@@ -13,6 +13,6 @@ func n()  {
 }
 
 func m()  {
-	a := "0"
+	a := "O"
 	print(a)
 }
