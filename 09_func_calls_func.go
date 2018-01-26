@@ -1,19 +1,24 @@
 package main
 
+import "fmt"
+
 var a string
 
 func main() {
 	a = "G"
-	print(a)
+	fmt.Printf("%p", &a)
+	print(a + "\n")
 	f1()
 }
 
 func f1() {
 	a := "O"
-	print(a)
+	fmt.Printf("%p", &a)
+	print(a + "\n")
 	f2()
 }
 
 func f2() {
-	print(a)
+	fmt.Printf("%p", &a)
+	print(a + "\n")
 }
