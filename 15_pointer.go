@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	var i1 = 5
 	fmt.Printf("An Integer: %d, it`s location in memory is %p\n", i1, &i1)
 	var intP *int
