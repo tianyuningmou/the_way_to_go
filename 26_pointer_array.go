@@ -9,4 +9,5 @@ func main() {
 	var ar [3]int
 	f(ar)   // passes a copy of ar
 	fp(&ar) // passes a pointer to ar
+	fmt.Print('A')
 }
