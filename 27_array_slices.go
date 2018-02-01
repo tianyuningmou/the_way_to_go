@@ -13,6 +13,8 @@ func main() {
 	}
 
 	fmt.Println("==============")
+	fmt.Println(slice1)
+	fmt.Println("==============")
 
 	// print the slice
 	for i := 0; i < len(slice1); i++ {
