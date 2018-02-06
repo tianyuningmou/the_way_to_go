@@ -6,6 +6,8 @@
 ###### go doc package function 获取某个函数在包中的文档注释
 ###### go fix 用于将代码从旧的版本迁移到新的版本
 ###### go test 一个轻量级的测试框架
+###### godoc -http=:6060 -goroot="." 生成网页版的项目文档（sync_minutes=n 设置n分钟自动更新文档）
+       
 
 ## Go程序的基本结构和要素
 
