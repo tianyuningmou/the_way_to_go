@@ -26,4 +26,5 @@ func main() {
 		s += flag.Arg(i)
 	}
 	os.Stdout.WriteString(s)
+	os.Stdout.WriteString("\n")
 }
