@@ -1,12 +1,12 @@
 package main
 
 import (
-	    "fmt"
+	"fmt"
+	"os"
 	"runtime"
-	     "os"
 )
 
-func main()  {
+func main() {
 	var goos string = runtime.GOOS
 	fmt.Printf("The operating system is：%s\n", goos)
 	path := os.Getenv("PATH")
