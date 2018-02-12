@@ -2,15 +2,15 @@ package parse
 
 import (
 	"fmt"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 // A ParseError indicates an error in converting a word into an integer.
 type ParseError struct {
-	Index int      // The index into the space-separated list of words.
-	Word  string   // The word that generated the parse error.
-	Err error // The raw error that precipitated this error, if any.
+	Index int    // The index into the space-separated list of words.
+	Word  string // The word that generated the parse error.
+	Err   error  // The raw error that precipitated this error, if any.
 }
 
 // String returns a human-readable error message.
