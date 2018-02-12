@@ -1,12 +1,12 @@
 package main
 
 import (
-		"fmt"
 	"./trans"
+	"fmt"
 )
 
 var twoPi = 2 * trans.Pi
 
-func main()  {
+func main() {
 	fmt.Printf("2 * Pi = %g\n", twoPi)
 }
