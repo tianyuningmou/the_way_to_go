@@ -26,8 +26,7 @@ func getData(ch chan string) {
 	var input string
 	// time.Sleep(2e9)
 	for {
-		input = <- ch
+		input = <-ch
 		fmt.Printf("%s\n", input)
 	}
 }
-
