@@ -2,13 +2,13 @@
 
 package main
 
-const PI  = 3.1415926
+const PI = 3.1415926
 const name string = "小明"
 
 const (
 	Unknown = 0
-	Female = 1
-	Male = 2
+	Female  = 1
+	Male    = 2
 )
 
 const (
@@ -37,7 +37,7 @@ const (
 	BLUE
 )
 
-func main()  {
+func main() {
 	println(a, b, c)
 	println(Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday)
 	println(RED, ORANGE, YELLOW, GREEN, BLUE)
