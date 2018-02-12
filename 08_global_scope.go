@@ -2,15 +2,15 @@ package main
 
 var a = "G"
 
-func main()  {
+func main() {
 	n()
 	m()
 	n()
 }
 
-func n()  { print(a) }
+func n() { print(a) }
 
-func m()  {
+func m() {
 	a = "O"
 	print(a)
 }
