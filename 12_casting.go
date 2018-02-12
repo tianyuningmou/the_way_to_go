@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	var n int16 = 34
 	var m int32
 	m = int32(n)
